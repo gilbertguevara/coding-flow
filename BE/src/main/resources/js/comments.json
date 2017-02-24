@@ -1,0 +1,10 @@
+[
+  {
+    "author":"Peter Parker",
+    "text": "This is a comment."
+  },
+  {
+    "author":"John Doe",
+    "text": "This is *another* comment."
+  }
+]

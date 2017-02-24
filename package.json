@@ -1,0 +1,74 @@
+{
+  "name": "fabric-mocha",
+  "version": "0.1.0",
+  "description": "ES2015 Development Facility",
+  "scripts": {
+    "fe:test": "./node_modules/karma/bin/karma start --auto-watch --no-single-run FE/karma.config.js",
+    "fe:start": "node FE/server.js",
+    "fe:dev": "npm run fe:start & npm run fe:test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:baldore/fabric-mocha.git"
+  },
+  "author": {
+    "name": "Camilo Orrego",
+    "email": "acornssn@gmail.com",
+    "url": "https://github.com/baldore"
+  },
+  "contributors": [
+    {
+      "name": "David Gómez",
+      "email": "dg.dave@gmail.com",
+      "url": "https://github.com/davegomez"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baldore/fabric-mocha/issues"
+  },
+  "homepage": "https://github.com/baldore/fabric-mocha",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^5.3.2",
+    "browser-sync": "^2.9.11",
+    "browser-sync-webpack-plugin": "^1.0.0",
+    "chai": "^3.3.0",
+    "css-loader": "^0.18.0",
+    "eslint": "^1.7.2",
+    "eslint-loader": "^1.1.0",
+    "eslint-plugin-react": "^3.6.3",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "imports-loader": "^0.6.5",
+    "istanbul": "^0.3.22",
+    "istanbul-instrumenter-loader": "^0.1.3",
+    "jscs": "^2.3.5",
+    "jscs-loader": "^0.2.0",
+    "karma": "^0.13.11",
+    "karma-coverage": "^0.5.3",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-spec-reporter": "0.0.20",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.3.3",
+    "node-libs-browser": "^0.5.3",
+    "node-sass": "^3.3.3",
+    "phantomjs": "^1.9.18",
+    "phantomjs-polyfill": "0.0.1",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^2.0.1",
+    "sinon": "git://github.com/cjohansen/Sinon.JS.git#sinon-2.0",
+    "style-loader": "^0.12.4",
+    "wallaby-webpack": "0.0.7",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1",
+    "webpack-merge": "^0.2.0"
+  },
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
